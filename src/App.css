@@ -1,38 +1,84 @@
-.App {
+.home {
   text-align: center;
+  background-color: rgb(124, 124, 238);
+  margin-top: -1.4rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  color: black;
+  background-color: rgb(34, 220, 174);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.listofCountries {
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin: 2rem 0rem 0rem 46rem ;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.inputs {
+  margin: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
+.inputs h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputs input[type="text"] {
+  padding: 8px;
+  width: 300px;
+  margin-right: 10px;
+  font-size: 16px;
 }
+
+.inputs button {
+  padding: 8px 16px;
+  background-color: #f0f0f0;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.search {
+  text-align: center;
+}
+
+.countryDisplay {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.countryDisplay h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
